@@ -1,5 +1,5 @@
 set(the_description "FreeType module. It enables to draw strings with outlines and mono-bitmaps/gray-bitmaps.")
-if(APPLE_FRAMEWORK OR ANDROID)
+if(APPLE_FRAMEWORK OR ANDROID OR IOS)
   ocv_module_disable(freetype)
 endif()
 
